@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+from sklearn.externals import joblib
 from PIL import Image
 
 # Load the trained model and scaler
