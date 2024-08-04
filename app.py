@@ -83,7 +83,7 @@ with st.spinner("Loading..."):
     if occupation!= "":
         occupation_num = label_encoders['occupation'].transform([occupation])[0]
 
-    age = st.slider("Age", min_value=0, max_value=200, value=None)
+    age = st.slider("Age", min_value=0, max_value=100, value=None)
     hours_per_week = st.slider("Hours per Week", min_value=0, max_value=168, value=None)
 
     sex = st.selectbox("Sex", ["", "Male", "Female"])
